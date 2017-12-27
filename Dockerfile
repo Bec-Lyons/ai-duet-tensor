@@ -2,7 +2,7 @@ FROM python:2.7
 MAINTAINER Prashanth Madi<prashanthrmadi@gmail.com>
 
 ENV DEPLOYMENT_TARGET=/app
-ENV NGINX_VERSION 1.12.0-1~jessie
+ENV NGINX_VERSION 1.12.1-1~jessie
 # Setup webserver and process manager
 
 RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62 \
